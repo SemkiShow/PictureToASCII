@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WhQK3wzGUCg+Nba4W+gR/cFOW7yUGeW3WSFolHTZsHgiLGEWI0sDThVP7S1BFBP46NF5zcKwco0FxIUmIunoKQ==",
+  "dgSpecHash": "T3L9zbnK46xdl9moZ4A3duakgTMAdUY6uY+VSFeHh908Qtd3EB3xqkrOuQTWinkS5EJzJ81LeDlfEWweg7wz4w==",
   "success": true,
   "projectFilePath": "/home/semkishow/C#/PictureToASCII/PictureToASCII.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/semkishow/.nuget/packages/sixlabors.imagesharp/3.0.1/sixlabors.imagesharp.3.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

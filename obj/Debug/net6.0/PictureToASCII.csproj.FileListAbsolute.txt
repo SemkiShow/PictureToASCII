@@ -1,0 +1,17 @@
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/PictureToASCII
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/PictureToASCII.deps.json
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/PictureToASCII.runtimeconfig.json
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/PictureToASCII.dll
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/ref/PictureToASCII.dll
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/PictureToASCII.pdb
+/home/semkishow/C#/PictureToASCII/bin/Debug/net6.0/SixLabors.ImageSharp.dll
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.csproj.AssemblyReference.cache
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.GeneratedMSBuildEditorConfig.editorconfig
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.AssemblyInfoInputs.cache
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.AssemblyInfo.cs
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.csproj.CoreCompileInputs.cache
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.csproj.CopyComplete
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.dll
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/ref/PictureToASCII.dll
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.pdb
+/home/semkishow/C#/PictureToASCII/obj/Debug/net6.0/PictureToASCII.genruntimeconfig.cache
