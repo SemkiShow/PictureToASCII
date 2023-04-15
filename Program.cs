@@ -15,23 +15,11 @@ namespace PictureToASCII
 			var path = "image" + imageNumber + ".png";
 			var image = Image.Load<Rgba32>(path);	
 
-			// Printing RGBA of every pixel
-			// int i = 1;
-			// for (int y = 0; y < image.Height; y++)
-			// {
-			// 	for (int x = 0; x < image.Width; x++)
-			// 	{
-			// 		Console.WriteLine(i + ". " + image[x, y]);
-			// 		i++;
-			// 	}
-			// }
-
-			// Debug printing width and height
-			// Console.WriteLine(image.Width + "*" + image.Height + "=" + (image.Width * image.Height));
-			
-			// Printing every pixel
-			int crop = Convert.ToInt16(Math.Ceiling(image.Width / Console.WindowWidth * 2.5d * (image.Width / image.Height)));
+			int xCrop = Convert.ToInt16(Math.Ceiling(image.Width / Console.WindowWidth * 1d + 0.5));
+			int yCrop = Convert.ToInt16(Math.Ceiling(image.Height / Console.WindowHeight * 1d + 0.5));
+			int crop = new int[] {xCrop, yCrop}.Max();
 			if (crop == 0) crop = 1;
+			
 			for (int y = 0; y < image.Height; y += crop)
 			{
 				for (int x = 0; x < image.Width; x += crop)
