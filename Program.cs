@@ -12,7 +12,7 @@ namespace PictureToASCII
 			string brightness = " `.-':_,^=;><+!rc*/z?sLTv)J7(|Fi{C}fI31tlu[neoZ5Yxjya]2ESwqkP6h9d4VpOGbUAKXHm8RD#$Bg0MNWQ%&@";
 			Console.WriteLine("Enter image number: ");
 			int imageNumber = Convert.ToInt16(Console.ReadLine());
-			var path = "image" + imageNumber + ".png";
+			var path = "./Images/image" + imageNumber + ".png";
 			var image = Image.Load<Rgba32>(path);	
 
 			int xCrop = Convert.ToInt16(Math.Ceiling(image.Width / Console.WindowWidth * 1d + 0.5));
