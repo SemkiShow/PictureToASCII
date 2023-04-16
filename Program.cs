@@ -42,6 +42,7 @@ namespace PictureToASCII
 				}
 				Console.WriteLine();
 			}
+			Console.ReadLine();
 		}
 	}
 }
