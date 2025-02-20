@@ -1,4 +1,5 @@
 ﻿using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
 using System;
 using System.Collections.Generic;
 
@@ -11,8 +12,8 @@ namespace PictureToASCII
 			// Initialization
 			string brightness = " `.-':_,^=;><+!rc*/z?sLTv)J7(|Fi{C}fI31tlu[neoZ5Yxjya]2ESwqkP6h9d4VpOGbUAKXHm8RD#$Bg0MNWQ%&@";
 			Console.WriteLine("Enter image number: ");
-			int imageNumber = Convert.ToInt16(Console.ReadLine());
-			var path = "./Images/image" + imageNumber + ".png";
+			string? imageName = Console.ReadLine();
+			string path = "./images/" + imageName + ".png";
 			var image = Image.Load<Rgba32>(path);	
 
 			int xCrop = Convert.ToInt16(Math.Ceiling(image.Width / Console.WindowWidth * 1d + 0.5));
@@ -32,7 +33,6 @@ namespace PictureToASCII
 							if (x + j + 1 <= image.Width && y + i + 1 <= image.Height)
 							{
 								middleColor = middleColor + ((image[x + j, y + i].R + image[x + j, y + i].G + image[x + j, y + i].B) / 3);
-						
 							}
 						}
 					}
